@@ -25,5 +25,5 @@ const solveCaptcha = async (imageUrl) => {
 
 
   
-
-  solveCaptcha('https://i.ibb.co/R4BB4DW/Captcha-Bajaj.jpg').then(d=>console.log(d));
+  const imageLink = 'https://i.ibb.co/R4BB4DW/Captcha-Bajaj.jpg'
+  solveCaptcha(imageLink).then(d=>console.log(d));
